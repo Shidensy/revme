@@ -6,9 +6,9 @@ interface item {
 }
 
 const items: item[] = [
-    {icon: "/icons/email.svg", title: "email", href: "mailto:1_wow_wow_1@mail.ru"},
-    {icon: "/icons/telegram.svg", title: "telegram", href: "https://t.me/Andrey364d"},
-    {icon: "/icons/whatsapp.svg", title: "whatsapp", href: "https://wa.me/79502725670"},
+    {icon: "icons/email.svg", title: "email", href: "mailto:1_wow_wow_1@mail.ru"},
+    {icon: "icons/telegram.svg", title: "telegram", href: "https://t.me/Andrey364d"},
+    {icon: "icons/whatsapp.svg", title: "whatsapp", href: "https://wa.me/79502725670"},
 ];
 </script>
 
