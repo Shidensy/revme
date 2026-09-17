@@ -5,7 +5,7 @@
                 <UiTitle class="action__title">Присоединяйтесь к нам</UiTitle>
                 <p class="action__subtitle">Оставьте заявку на персональную консультацию, чтобы примерить систему под ваш бизнес.</p>
                 <a class="action__link" href="#feedback">
-                    <UiBtn class="action__btn"><img class="action__btn-icon" src="/icons/arrow.svg" alt="arrow icon" />Оставить заявку</UiBtn>
+                    <UiBtn class="action__btn"><img class="action__btn-icon" src="icons/arrow.svg" alt="arrow icon" />Оставить заявку</UiBtn>
                 </a>
             </div>
         </div>
