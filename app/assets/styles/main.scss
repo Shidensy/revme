@@ -1,0 +1,62 @@
+@use "reset";
+@use "animations";
+@use "mixins";
+@use "variables";
+
+html {
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-color: #cbcbcb #8f8b8b;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Nunito Sans";
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 10px;
+    max-width: 1180px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+section {
+    padding: 120px 0;
+}
+
+@include tablet {
+    section {
+        padding: 70px 0;
+    }
+}
+
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
